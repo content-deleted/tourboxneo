@@ -56,7 +56,7 @@ class TourBox:
         logger.debug('Exiting Tourbox Daemon')
 
 def main():
-    t = TourBox(dev_path=sys.argv[1])
+    t = TourBox()
     t.start()
 
 
